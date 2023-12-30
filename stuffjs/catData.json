@@ -1,0 +1,12 @@
+{
+    "cats": {
+        "lola": {
+            "image": "coolcat.jpg",
+            "text": "DUMMY DATA"
+        },
+        "chia": {
+            "image": "coolcat.jpg",
+            "text": "Heo"
+        }
+    }
+}
