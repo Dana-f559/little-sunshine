@@ -1,12 +1,16 @@
 {
     "cats": {
         "lola": {
-            "image": "coolcat.jpg",
-            "text": "DUMMY DATA"
+            "image": "photos/lolacs50.jpg",
+            "text": "This is lola, and i think she hates me. But she def likes me when i give her food"
         },
         "chia": {
-            "image": "coolcat.jpg",
-            "text": "Heo"
+            "image": "photos/chiahuman.jpg",
+            "text": "This is chia, and she def loves me."
+        },
+        "chiaa": {
+            "image": "photos/angrybirds.jpg",
+            "text": "They are both sleeping on the bed, idk how in the world that happened"
         }
     }
 }

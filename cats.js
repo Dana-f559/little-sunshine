@@ -12,10 +12,10 @@ const getDataCats = async () => {
 
 // Function to add cat data to the HTML document
 const addCatData = (cat) => {
-    const body = document.body;
+    const thecat = document.querySelector("#catPics");
 
     const div = document.createElement("div");
-    body.append(div);
+    thecat.append(div);
     div.setAttribute("class", "photos-flex");
     
     div.innerHTML = `<img src="${cat.image}" alt="Cat Image" class="photoSize"><div class="text-flex">${cat.text}</div>`;
@@ -43,10 +43,3 @@ getDataCats()
         }
     })
     .catch((err) => console.log("Rejected", err.message));
-
-
-        // .then((data) => {
-    //     const cat = data.cats.lola; // Assuming you want data for the "lola" cat
-    //     console.log("Resolved", cat);
-    //     addCatData(cat);
-    // })
